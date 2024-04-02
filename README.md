@@ -1,6 +1,3 @@
-# Carl's portfolio 
-
-
 ## About me
 My name is Carl, I am a sophomore at Washington University in St. Louis. I study computer science and minor in human computer interaction. I play cities skylines in my free time and I love motorcycles.
 
