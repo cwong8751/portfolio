@@ -16,10 +16,8 @@ Shenzhen and Hong Kong
 		</ul>
 
 ## My contacts
-<ul>
 			<li><a href="https://youtube.com/@user-qb3uz4iq4c?si=IMvEzHdgalDO6IBC">YouTube</a></li>
             <li><a href="https://www.linkedin.com/in/carl-wang-922a102b0/">LinkedIn</a></li>
             <li><a href="https://github.com/cwong8751">Github</a></li>
 			<li><a href="https://scholar.google.com/citations?user=vBhKZHcAAAAJ&hl=en">Google Scholar</a>
 			<li><address>carl [dot] w [at] wustl [dot] edu</address></li>
-        </ul>
