@@ -1,0 +1,11 @@
+# Site settings
+title: Carl's portfolio
+description: This is Carl's portfolio.
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# GitHub Pages settings
+remote_theme: jekyll/minima
