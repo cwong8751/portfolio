@@ -1,4 +1,4 @@
-My name is Carl, I am a sophomore at Washington University in St. Louis. I study computer science and minor in human computer interaction. I play cities skylines in my free time and I love motorcycles.
+My name is Carl, I am a sophomore at Washington University in St. Louis. I study computer science and minor in human computer interaction.
 
 
 ## Where am I from:
@@ -7,12 +7,21 @@ Shenzhen and Hong Kong
 ## My work
 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vBhKZHcAAAAJ&citation_for_view=vBhKZHcAAAAJ:u-x6o8ySG0sC">A Survey of Deep Learning Based Object Detection</a>
 
+## My most recent projects
+[DriveLog](https://github.com/cwong8751/DriveLog)
+
 ## My languages
 <ul>
 			<li>Mandarin - native</li>
 			<li>Cantonese - native</li>
 			<li>English - fluent</li>
 		</ul>
+
+## My interests
+- Mobile application development
+- Networks
+- Web development
+- ML
 
 ## My contacts
 - [YouTube](https://youtube.com/@user-qb3uz4iq4c?si=IMvEzHdgalDO6IBC)
