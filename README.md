@@ -1,4 +1,3 @@
-## About me
 My name is Carl, I am a sophomore at Washington University in St. Louis. I study computer science and minor in human computer interaction. I play cities skylines in my free time and I love motorcycles.
 
 
@@ -16,8 +15,8 @@ Shenzhen and Hong Kong
 		</ul>
 
 ## My contacts
-			<li><a href="https://youtube.com/@user-qb3uz4iq4c?si=IMvEzHdgalDO6IBC">YouTube</a></li>
-            <li><a href="https://www.linkedin.com/in/carl-wang-922a102b0/">LinkedIn</a></li>
-            <li><a href="https://github.com/cwong8751">Github</a></li>
-			<li><a href="https://scholar.google.com/citations?user=vBhKZHcAAAAJ&hl=en">Google Scholar</a>
-			<li><address>carl [dot] w [at] wustl [dot] edu</address></li>
+- [YouTube](https://youtube.com/@user-qb3uz4iq4c?si=IMvEzHdgalDO6IBC)
+- [LinkedIn](https://www.linkedin.com/in/carl-wang-922a102b0/)
+- [GitHub](https://github.com/cwong8751)
+- [Google Scholar](https://scholar.google.com/citations?user=vBhKZHcAAAAJ&hl=en)
+- `carl [dot] w [at] wustl [dot] edu`
