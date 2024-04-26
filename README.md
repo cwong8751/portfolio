@@ -25,6 +25,9 @@ Shenzhen and Hong Kong
 - Web development
 - ML
 
+## My resume
+[Resume](https://github.com/cwong8751/portfolio/blob/main/resume.pdf)
+
 ## My contacts
 - [YouTube](https://youtube.com/@user-qb3uz4iq4c?si=IMvEzHdgalDO6IBC)
 - [LinkedIn](https://www.linkedin.com/in/carl-wang-922a102b0/)
