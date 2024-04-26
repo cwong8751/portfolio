@@ -8,7 +8,7 @@ Shenzhen and Hong Kong
 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vBhKZHcAAAAJ&citation_for_view=vBhKZHcAAAAJ:u-x6o8ySG0sC">A Survey of Deep Learning Based Object Detection</a>
 
 ## My most recent projects
-[DriveLog](https://github.com/cwong8751/DriveLog)
+[DriveLog](https://cwong8751.github.io/DriveLog/)
 
 [Scanner](https://github.com/cwong8751/Scanner)
 
