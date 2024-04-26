@@ -9,6 +9,7 @@ Shenzhen and Hong Kong
 
 ## My most recent projects
 [DriveLog](https://github.com/cwong8751/DriveLog)
+
 [Scanner](https://github.com/cwong8751/Scanner)
 
 ## My languages
