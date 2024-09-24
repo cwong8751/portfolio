@@ -12,5 +12,3 @@ I am currently a third year studying Computer Science @ WashU. My interests invo
 
 Feel free to look around :)
 
-Below are my blog posts: 
-
