@@ -1,7 +1,7 @@
 # Site settings
 title: Carl's portfolio
 description: This is Carl's portfolio.
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
