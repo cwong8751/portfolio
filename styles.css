@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(0, 129, 4), rgb(0, 77, 3));
+    border-radius: 5.5rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+main {
+    padding: 0.2rem;
+}
+
+section {
+    text-align: left;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 2px solid rgb(202, 202, 202);
+}
