@@ -1,8 +1,0 @@
-# Site settings
-title: Carl's portfolio
-description: This is Carl's portfolio.
-theme: jekyll-theme-leap-day
-
-# Build settings
-markdown: kramdown
-permalink: /:title/
