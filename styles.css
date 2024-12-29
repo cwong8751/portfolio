@@ -1,8 +1,9 @@
 * {
-    font-family: sans-serif;
+    font-family: "Exo 2", serif;
 }
 
 body {
+
     background-color: rgb(238, 238, 238);
     margin-right: 3rem;
     margin-left: 3rem;
@@ -10,13 +11,12 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, rgb(0, 129, 4), rgb(0, 77, 3));
+    background-color: red;
     border-radius: 5.5rem;
     padding: 0.3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: white;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,58 @@ section {
     text-align: left;
     margin-top: 1rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
     padding: 1rem;
-    border: 2px solid rgb(202, 202, 202);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item {
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.grid-item h5 {
+    margin: 0.5rem 0;
+}
+
+.grid-item p {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.grid-item img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    animation: move 3s linear infinite alternate;
+    padding: 0.3rem;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 70px);
+    }
 }
