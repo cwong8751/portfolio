@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./clock.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <script>
+            // Function to generate random colors
+            function getRandomColor() {
+                const letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color + "AA";
+            }
+
+            // Function to update the grid based on the current time
+            function updateClock() {
+                const now = new Date();
+                const seconds = now.getSeconds();
+                const minutes = now.getMinutes();
+                const hours = now.getHours(); // Keep in 24-hour format for easier indexing
+
+                //console.log(hours, minutes, seconds);
+
+                // Reset all grid items
+                document.querySelectorAll('.grid-item').forEach(item => {
+                    item.style.backgroundColor = '#fff';
+                    item.style.borderColor = '#ccc';
+                });
+
+                // Calculate grid indices
+                const hourIndex = (hours % 12) || 12;
+                const minuteIndex = minutes;
+                const secondIndex = seconds; 
+
+                // Light up the current hour, minute, and second
+                const hourItem = document.getElementById(`grid-item-${hourIndex}`);
+                const minuteItem = document.getElementById(`grid-item-${minuteIndex}`);
+                const secondItem = document.getElementById(`grid-item-${secondIndex}`);
+
+                if(hourItem == minuteItem){
+                    hourItem.style.backgroundColor = 'green';
+                    minuteItem.style.backgroundColor = 'green';
+                }
+
+                if (hourItem) {
+                    hourItem.style.backgroundColor = 'green';
+                }
+                if (minuteItem) {
+                    minuteItem.style.backgroundColor = 'lightblue';
+                }
+                if (secondItem) {
+                    secondItem.style.backgroundColor = getRandomColor();
+                }
+            }
+
+            // Initialize the grid and set up the clock update
+            const gridContainer = document.querySelector('.grid-container');
+            for (let i = 0; i <= 60; i++) {
+                const div = document.createElement('div');
+                div.className = 'grid-item';
+                div.id = `grid-item-${i}`;
+                div.innerHTML = `<span>${i}</span>`;
+                gridContainer.appendChild(div);
+            }
+
+            // Update the clock every second
+            setInterval(updateClock, 1000);
+
+        </script>
+    </div>
+    <div class="grid-container" id="guide">
+        <div class="grid-green">
+        </div>
+        <p class="guide-text">Hour</p>
+        <div class="grid-lightblue">
+        </div> 
+        <p class="guide-text">Minute</p> 
+    </div>
+    <p style="color: white;">This is a tribute to Rudolph de Harak's clock installed on the side of a NYU owned building. <a style="color: white;" href="https://www.watchprosite.com/horological-meandering/valuable-and-beautiful-clock-at-starbucks-at-200-water-street-new-york-city/17.1476141.13995506/">Read More</a></p>
+</body>
+</html>
