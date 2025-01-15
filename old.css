@@ -1,0 +1,122 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-size: small;
+    color: #000000;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+img {
+    border: 1px solid black;
+    max-width: 100%; /* Prevent images from overflowing */
+    height: auto;
+    width: 5em;
+}
+
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 3px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+header {
+    background-color: #CCCCFF;
+    padding: 8px;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CCCCFF), to(#9999CC));
+    background-image: -webkit-linear-gradient(top, #CCCCFF, #9999CC);
+    background-image: -moz-linear-gradient(top, #CCCCFF, #9999CC);
+    background-image: -o-linear-gradient(top, #CCCCFF, #9999CC);
+    background-image: linear-gradient(to bottom, #CCCCFF, #9999CC);
+}
+
+main {
+    padding: 8px;
+    background-color: #EEEEEE;
+}
+
+section {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+}
+
+.grid-container {
+    display: block; /* Change to block for mobile */
+}
+
+.grid-item {
+    width: 100%; /* Full width on mobile */
+    padding: 4px;
+    margin-bottom: 8px; /* Add some spacing between items */
+    border: 1px solid #999999;
+    box-sizing: border-box; /* Include padding and border in width */
+    text-align: center;
+    display: block;
+}
+
+.grid-item img {
+    max-width: 90%; /* Scale images within grid items */
+    height: auto;
+    border: none;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 4px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    table-layout: fixed; /* prevent table from overflowing */
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    word-wrap: break-word; /* prevent long words from overflowing */
+}
+
+p {
+    border-bottom: 1px dotted #999999;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: medium; /* Slightly larger font on smaller screens */
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
