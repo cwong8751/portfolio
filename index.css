@@ -1,0 +1,109 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00B9FF;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    /* Add smooth transition */
+}
+
+/* Hover effect for grid items */
+.grid-item:hover {
+    transform: scale(1.2);
+    /* Scale the item by 1.2 times */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #FF6FC3;
+    /* Pink background to match 90s playful look */
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+    margin-top: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #FFEB3B;
+    /* Change to yellow on hover */
+    transform: scale(1.1);
+    /* Slight enlargement when hovered */
+    color: black;
+}
+
+section {
+    margin-top: 20px;
+}
+
+a {
+    color: #9B4DFF;
+}
+
+
+hr {
+    border: none;
+    /* Remove default border */
+    height: 4px;
+    /* Set the thickness of the line */
+    background: linear-gradient(to right, #FF6FC3, #00FF00);
+    /* Gradient from pink to green */
+    margin: 20px auto;
+    /* Center the line and add space above and below */
+    width: 90%;
+    /* Make the line narrower for a fun effect */
+    border-radius: 5px;
+}
+
+
+/* Media queries for responsive design */
+@media (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
