@@ -10,10 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #00B9FF;
     font-family: "Jost", serif;
     font-optical-sizing: auto;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .container {
@@ -33,7 +38,7 @@ h2 {
 
 .grid-item {
     background-color: #f0f0f0;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     border-radius: 4px;
     transition: transform 0.3s ease;
@@ -80,21 +85,6 @@ a {
 }
 
 
-hr {
-    border: none;
-    /* Remove default border */
-    height: 4px;
-    /* Set the thickness of the line */
-    background: linear-gradient(to right, #FF6FC3, #00FF00);
-    /* Gradient from pink to green */
-    margin: 20px auto;
-    /* Center the line and add space above and below */
-    width: 90%;
-    /* Make the line narrower for a fun effect */
-    border-radius: 5px;
-}
-
-
 /* Media queries for responsive design */
 @media (min-width: 600px) {
     .grid-container {
@@ -106,4 +96,64 @@ hr {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.scrollable-content{
+    overflow-y: scroll;
+    height: 40%;
+}
+
+.grid-item:nth-child(1) {
+    background-color: #FF6FC3; /* Hot Pink */
+}
+
+.grid-item:nth-child(2) {
+    background-color: #FFEB3B; /* Neon Yellow */
+}
+
+.grid-item:nth-child(3) {
+    background-color: #00FF00; /* Neon Green */
+}
+
+.grid-item:nth-child(4) {
+    background-color: #00FFFF; /* Cyan */
+}
+
+.grid-item:nth-child(5) {
+    background-color: #FF00FF; /* Neon Purple */
+}
+
+.grid-item:nth-child(6) {
+    background-color: #FF4500; /* Neon Orange */
+}
+
+.grid-item:nth-child(7) {
+    background-color: #FFFF00; /* Bright Yellow */
+}
+
+.grid-item:nth-child(8) {
+    background-color: #FF6347; /* Tomato Red */
+}
+
+.grid-item b{
+    font-size: 25px;
+}
+
+.grid-item:hover b{
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.grid-item p {
+    opacity: 0;
+    visibility: hidden; /* Ensure it's not visible or interactable */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.grid-item:hover p {
+    opacity: 1;
+    visibility: visible; /* Make the <p> tag visible */
 }
