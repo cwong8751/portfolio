@@ -11,9 +11,23 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #00B9FF;
+    background-color: skyblue;
     font-family: "Jost", serif;
     font-optical-sizing: auto;
+    overflow: hidden;
+}
+
+#myCanvas {
+    position: fixed; /* Fix it to the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0; /* Send it behind everything */
+}
+
+html {
+    overflow: hidden;
 }
 
 main{
@@ -23,6 +37,7 @@ main{
 
 .container {
     text-align: center;
+    z-index: 0; /* Bring it to the front */
 }
 
 h2 {
@@ -157,3 +172,5 @@ a {
     opacity: 1;
     visibility: visible; /* Make the <p> tag visible */
 }
+
+.
