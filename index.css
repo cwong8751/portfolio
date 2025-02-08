@@ -15,29 +15,34 @@ body {
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     overflow: hidden;
+    font-size: large;
 }
 
 #myCanvas {
-    position: fixed; /* Fix it to the viewport */
+    position: fixed;
+    /* Fix it to the viewport */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 0; /* Send it behind everything */
+    z-index: 0;
+    /* Send it behind everything */
 }
 
 html {
-    overflow: hidden;
+    overflow: auto;
+    /* or remove this rule entirely */
 }
 
-main{
+main {
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .container {
     text-align: center;
-    z-index: 0; /* Bring it to the front */
+    z-index: 0;
+    /* Bring it to the front */
 }
 
 h2 {
@@ -60,11 +65,9 @@ h2 {
     /* Add smooth transition */
 }
 
-/* Hover effect for grid items */
 .grid-item:hover {
-    transform: scale(1.2);
-    /* Scale the item by 1.2 times */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    /* Slight enlargement when hovered */
 }
 
 /* Button Styling */
@@ -113,64 +116,57 @@ a {
     }
 }
 
-.scrollable-content{
+.scrollable-content {
     overflow-y: scroll;
     height: 40%;
 }
 
 .grid-item:nth-child(1) {
-    background-color: #FF6FC3; /* Hot Pink */
+    background-color: #FFC0CB;
+    /* Pink */
 }
 
 .grid-item:nth-child(2) {
-    background-color: #FFEB3B; /* Neon Yellow */
+    background-color: #FFFF00;
+    /* Yellow */
 }
 
 .grid-item:nth-child(3) {
-    background-color: #00FF00; /* Neon Green */
+    background-color: #ADD8E6;
+    /* Light Blue */
 }
 
 .grid-item:nth-child(4) {
-    background-color: #00FFFF; /* Cyan */
+    background-color: #FFA500;
+    /* Orange */
 }
 
 .grid-item:nth-child(5) {
-    background-color: #FF00FF; /* Neon Purple */
+    background-color: #90EE90;
+    /* Light Green */
 }
 
 .grid-item:nth-child(6) {
-    background-color: #FF4500; /* Neon Orange */
+    background-color: #800080;
+    /* Purple */
 }
 
 .grid-item:nth-child(7) {
-    background-color: #FFFF00; /* Bright Yellow */
+    background-color: #F08080;
+    /* Light Coral */
 }
 
 .grid-item:nth-child(8) {
-    background-color: #FF6347; /* Tomato Red */
+    background-color: #A52A2A;
+    /* Brown */
 }
 
-.grid-item b{
+
+.grid-item b {
     font-size: 25px;
 }
 
-.grid-item:hover b{
+.grid-item:hover b {
     font-size: 18px;
     transition: all 0.3s ease;
 }
-
-.grid-item p {
-    opacity: 0;
-    visibility: hidden; /* Ensure it's not visible or interactable */
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-}
-
-.grid-item:hover p {
-    opacity: 1;
-    visibility: visible; /* Make the <p> tag visible */
-}
-
-.
