@@ -4,40 +4,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LECM100NGB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LECM100NGB');
-</script>
 
 <body>
-    <canvas id="myCanvas"></canvas>
-    <div class="container">
-        <h2>my name is carl</h2>
-        <div class="grid-container">
-            <div class="grid-item"><a href="./about.html">about</a></div>
-            <div class="grid-item"><a href="./experience.html">experience</a></div>
-            <div class="grid-item"><a href="./projects.html">projects</a></div>
-            <div class="grid-item"><a href="./resume.pdf">resume</a></div>
-            <div class="grid-item"><a href="./posts.php">posts</a></div>
-            <div class="grid-item"><a href="https://www.youtube.com/@wqis-h9y">youtube</a></div>
-            <div class="grid-item"><a href="./contact.html">contact</a></div>
-            <!-- <div class="grid-item"><a href="./futur.html">Futur</a></div> -->
-        </div>
-        <p>&copy; wqis.xyz 2018-2025 | background is Futur flower.</p>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        Carl's Portfolio
+    </header>
+    <main>
+
+        <h2>Hello, my name is Carl</h2>
+        <p>Hello! I'm Carl Wang, a junior at Washington University in St. Louis majoring in Computer Science with a
+            minor in Human-Computer Interaction. Growing up in a small city near Hong Kong shaped my fluency in English,
+            Cantonese, and Chinese, and sparked my deep appreciation for diverse cultures.
+            <br><br>
+            Over the past three years, I’ve worked as a freelance Android developer, refining my skills in both mobile
+            and web development. I’m also passionate about exploring how computers can better interact with
+            humans—whether through thoughtful design or innovative applications in automotive and traffic systems. I
+            look forward to connecting and collaborating on projects that push technology forward.
+        </p>
+        <br><br>
+        <h2>See More</h2>
+        <ul>
+            <li><a href="#experience">My experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <br><br>
+        <hr>
+        <br><br>
+        <section id="experience">
+            <h2>My experience</h2>
+            <div>
+                <b>Teaching Assistant for Web Development</b>
+                <i>Jan 2025 - Present</i>
+                <p>I was a Teaching Assistant for an entry-level Web Development class. I worked with other TAs to
+                    answer
+                    students' questions and grade homework.</p>
+            </div>
+            <br><br>
+            <div>
+                <b>Teaching Assistant for Creative Programming and Rapid Prototyping Class</b>
+                <i>Aug 2024 - Present</i>
+                <p>I was a Teaching Assistant for Rapid Prototyping and Creative Programming class. I collaborated with
+                    other TAs to answer student questions, host office hours, and grade students' works.</p>
+            </div>
+            <br><br>
+            <div>
+                <b>Software Development Engineering Intern for Papertrail Inc.</b>
+                <i>Jun 2024 - Aug 2024</i>
+                <p>I worked as a Software Developer for Papertrail Inc. I worked with the engineering team to deliver
+                    high
+                    quality and expandable code to create a better user experience. I also tested and reported integral
+                    functions of the project before deployment.</p>
+            </div>
+            <br><br>
+            <div>
+                <b>Teaching Assistant for Introduction to Computer Engineering</b>
+                <i>Aug 2023 - Jun 2024</i>
+                <p>I was a Teaching Assistant for Introduction to Computer Engineering class. I collaborated with other
+                    TAs
+                    to answer student questions in class, host office hours, grade students' work. I also proctored
+                    midterms
+                    and final exams.</p>
+            </div>
+            <br><br>
+            <div>
+                <b>Co-Author for A Survey of Deep Learning Based Object Detection</b>
+                <i>Published Jan 2021</i><br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9731010">See more</a>
+            </div>
+        </section>
+        <br><br>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <b>lsmaps</b>
+                    <p>a web app that gives riders of bicycles, scooters and motorcycles safe and friendly directions.
+                    </p>
+                    <a href="https://github.com/cwong8751/lsMaps">github repo</a>
+                    <a href="https://cwong8751.github.io/lsMaps/">web app</a>
+                </div>
+
+                <div class="grid-item">
+                    <b>futur-flower</b>
+                    <p>flowers of the future. </p>
+                    <a href="https://cwong8751.github.io/futur-flower/">see it here</a>
+                </div>
+
+                <div class="grid-item">
+                    <b>clock</b>
+                    <p>a web app that is a web implementation of a clock on the side of a building i saw on a trip to
+                        NYC.</p>
+                    <a href="clock.html">web app</a>
+                </div>
+
+                <div class="grid-item">
+                    <b>jautofiller</b>
+                    <p>a chrome extension that autofills your personal information on your job applications.</p>
+                    <a href="https://github.com/cwong8751/jAutofill">github repo</a>
+                </div>
+
+                <div class="grid-item">
+                    <b>personal property tax calculator</b>
+                    <p>a web app that helps you calculate your personal property tax bill. </p>
+                    <a href="https://github.com/cwong8751/ppt-calculator">github repo</a>
+                    <a href="https://cwong8751.github.io/ppt-calculator/">web app</a>
+                </div>
+                <div class="grid-item">
+                    <b>pan-demonium</b>
+                    <p>a vampire survivor type game where you are a chef fighting off incoming waves of food. made with
+                        my
+                        classmates jack mccall, jason ti, jason zhao using unity</p>
+                    <a href="https://github.com/cwong8751/450project">github repo</a>
+                    <a href="https://yosenky.itch.io/pan-demonium">play</a>
+                </div>
+                <div class="grid-item">
+                    <b>particles</b>
+                    <p>a web app billboard that tracks your face and displays information accordingly</p>
+                    <a href="https://github.com/hello-world-404/particles">github repo</a>
+                    <a href="https://www.youtube.com/watch?v=LxkDTgzGUII">youtube demo</a>
+                </div>
+                <div class="grid-item">
+                    <b>sky is blue</b>
+                    <p>a short video on robots and humanity.</p>
+                    <a href="https://www.youtube.com/watch?v=LkHM375gfaY">watch</a>
+                </div>
+                <div class="grid-item">
+                    <b>cantonese learning app</b>
+                    <p>a android app that helps you learn cantonese. concept.</p>
+                    <a href="https://github.com/hello-world-404/CantoneseDemo">github repo</a>
+                    <a href="https://www.youtube.com/watch?v=0B9m5mT1wCQ">youtube demo</a>
+                </div>
+                <div class="grid-item">
+                    <b>drivelog</b>
+                    <p>a ios app that tracks car and motorcycle riding trips</p>
+                    <a href="https://github.com/cwong8751/DriveLog">github repo</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <br><br>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="mailto:carlwang.dev@gmail.com">E-mail</a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://www.linkedin.com/in/carl-wang-922a102b0/">LinkedIn</a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://github.com/cwong8751">Github</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2018-2024 carl's website | Thank you for visiting
+    </footer>
 </body>
+
+</html>
 
 </html>
